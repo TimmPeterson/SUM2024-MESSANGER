@@ -1,8 +1,8 @@
-const host = "https://western-rigorous-transport.glitch.me/";
+const host = "ws://western-rigorous-transport.glitch.me";
 const port = 8000;
 
 // Socket for back connection with server
-let socket = new WebSocket(`ws://${host}`);
+let socket = new WebSocket(`${host}`);
 
 // Text of all messages <p></p>
 let paragraph;
