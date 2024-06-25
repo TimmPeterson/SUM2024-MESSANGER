@@ -149,7 +149,7 @@ wss.on("connection", (ws) => {
 });
 
 // Some stuff for debug
-const host = "localhost";
+const host = "";
 const port = 8000;
 server.listen(port, host, () => {
   console.log(`server started on http://${host}:${port}`);
